@@ -6,7 +6,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="fas fa-chart-pie mr-1"></i>
-                  Sales
+                  Sale
                 </h3>
                 <div class="card-tools">
                   <ul class="nav nav-pills ml-auto">
