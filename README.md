@@ -1,62 +1,9 @@
-# CodeIgniter 4 Application Starter
+# WebGIS PTPN
 
-## What is CodeIgniter?
+## Deskripsi Projek
+WebGIS PTPN merupakan sebuah sistem informasi geografis berbasis Website ( WebGIS ) yang digunakan untuk menyimpan serta menampilkan informasi denah geografis setiap kebun kelapa sawit yang terhubung langsung dengan aplikasi QGIS melalui database PostgreSql.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Tujuan utamanya adalah untuk meningkatkan kinerja perusahaan dengan menampilkan perkembangan data kebun setiap harinya yang terhubung dengan aplikasi QGIS yang dipakai bagian pertanahan. Dengan sistem ini tugas bagian pertanahan dalam menganalisis serta mendapatkan informasi dari data kebun akan lebih lebih effisien dari biasanya. Manfaat tambahan dari WebGIS ini adalah bahwa selama bagian pertanahan melakukan pemetaan dengan aplikasi QGIS, WebGIS akan terus mengupdate berbagai informasi seperti luas kebun, banyak pohon dan lain sebagainya yang terhubung ke database. Selain itu minimnya informasi secara visual yang tidak dapat dilihat tanpa melalui aplikasi QGIS juga ditambal dengan adanya sistem WebGIS yang dapat membantu berbagai bagian yang ingin melihat perkembangan kebun melalui Web saja.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## Tujuan
+WebGIS ini dikembangkan sebagai tugas PKL ( Praktik Kerja Lapangan ) yang dilakukan di perusahaan PT Perkebunan Nusantara VII selama 40 hari. Selain mengkodekan modul kami sendiri, pada akhirnya saya diberi tanggung jawab untuk bertemu dengan bagian pertanahan guna mendiskusikan dan menyelesaikan masalah yang mereka hadapi dengan mengembangkan Website agar dapat mengakses informasi langsung dari bagian pertanahan guna untuk mempermudah seluruh bagian yang terlibat dalam mengetahui berbagai informasi terbaru. tugas PKL ini dapat membuat saya mempunyai pengalaman akan hal pembuatan real project dalam dunia kerja seperti membuat basis data dengan mengikuti skema basis data yang diperlukan, pengembangan fitur dan lain-lain
