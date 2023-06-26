@@ -28,13 +28,55 @@ Deskripsi :
 merupakan fitur yang digunakan untuk mengecek data per lahan yang akan keluar data tersebut jika di hover.
 
 ### 2. Fitur Legend
-![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/3810f750-478a-47c9-9e40-b478cc1fe78a)
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/490367d6-b2b1-4293-9fa7-4aa2aa222420)
 
 Deskripsi : 
 Fitur Legend Data merupakan fitur untuk mengetahui skala data pada masing-masing kolom data. fitur legend dapat dilihat pada pojok kiri bawah gambar
 
-### 3. Fitur GroupLayer
+### 3. Fitur Pembagian Data
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/02d27551-0692-4ecc-863a-7f9acb67dee0)
+
+Deskripsi :
+Fitur Pembagian data ini merupakan fitur untuk memfilter seluruh data kebun menjadi data yang dipilih
+
+### 4. Fitur GroupLayer
 ![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/9ed2ab20-a2ad-459c-b60c-5d601a3aa32a)
 
 Deskripsi :
 Fitur Group Layer terdiri dari beberapa grup yang berguna untuk memperjelas informasi kebun berdasarkan suatu gambar, mulai dari data/tempat kebun, Marker, sampai HGU.
+
+#### 4.1. Fitur Marker
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/7ceb42be-ad36-468b-bc1f-080eb25ad4c4)
+
+Deskripsi : 
+Fitur Marker merupakan fitur yang berguna untuk membagi masing-masing daerah kebun sesuai dengan cluster yang dibuat oleh marker agar terbagi rata
+
+### 4.2. Fitur map
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/81e44caf-a879-41fc-b783-edd19a1a7b51)
+
+Deskripsi : 
+Fitur Jenis Map merupakan fitur yang berguna untuk mengubah jenis map sesuai dengan yang dibutuhkan oleh pengguna
+
+### 4.3 Fitur HGU
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/9010d801-fbdd-4255-a4db-3e7e64e580fa)
+
+Deskripsi :
+merupakan fitur untuk menampilkan HGU
+
+### 4.4 Fitur Jenis Map
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/47f7ad50-fdd9-4dde-9c4c-987313fed8a7)
+
+Deskripsi :
+Fitur Jenis Map merupakan fitur yang berguna untuk mengubah jenis map yang ditampilkan pada Webgis tersebut.
+
+## 5. Fitur Data Cabang
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/9fcb1033-1c34-49ba-9a50-30f918806b7d)
+
+Deskripsi :
+untuk menampilkan data setiap cabang
+
+## 6. Fitur Data
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/0388740e-15cc-4cc8-86b6-51cc7cedc861)
+
+Deskripsi :
+Untuk menampilkan isi dari setiap data cabang dan dapat mencetak secara word,excel, dll serta mengambil file geojson.
