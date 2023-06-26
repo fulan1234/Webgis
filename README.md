@@ -20,6 +20,21 @@ Pengguna web dapat melihat perkembangna informasi melalui kebun melalui WebGIS y
 Bagian pertanahan tidak berinteraksi dengan sistem. Mereka hanya perlu mengerjakan tugas pemetaan melalui aplikasi QGIS sehingga data yang dia kerjakan akan langsung terhubung ke database untuk di update.
 
 ## Screenshoot dari beberapa UI
+
+### 1. Fitur Map
 ![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/490367d6-b2b1-4293-9fa7-4aa2aa222420)
+
 Deskripsi :
-merupakan fitur yang digunakan untuk mengecek data per lahan yang akan keluar data tersebut jika di hover. Gambar 12 merupakan activity diagram fitur diikuti oleh gambar 13 yang merupakan User Interface dari fitur tersebut.
+merupakan fitur yang digunakan untuk mengecek data per lahan yang akan keluar data tersebut jika di hover.
+
+### 2. Fitur Legend
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/3810f750-478a-47c9-9e40-b478cc1fe78a)
+
+Deskripsi : 
+Fitur Legend Data merupakan fitur untuk mengetahui skala data pada masing-masing kolom data. fitur legend dapat dilihat pada pojok kiri bawah gambar
+
+### 3. Fitur GroupLayer
+![image](https://github.com/fulan1234/webgis_ptpn/assets/116423371/9ed2ab20-a2ad-459c-b60c-5d601a3aa32a)
+
+Deskripsi :
+Fitur Group Layer terdiri dari beberapa grup yang berguna untuk memperjelas informasi kebun berdasarkan suatu gambar, mulai dari data/tempat kebun, Marker, sampai HGU.
