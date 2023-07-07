@@ -10,13 +10,11 @@ WebGIS ini dikembangkan sebagai tugas PKL ( Praktik Kerja Lapangan ) yang dilaku
 
 ## User dan Karateristik
 Terdaapat 2 tipe user dalam projek ini, yaitu:
-### 1. Pengguna Web
-Pengguna web dapat melihat perkembangna informasi melalui kebun melalui WebGIS yang dikembangkan seperti Luas kebunjumlah pohon, tahun tanam, serta letak posisi kebun yang tampil di dalam map.
 
 ### 1. Pengguna Web
 Pengguna web dapat melihat perkembangna informasi melalui kebun melalui WebGIS yang dikembangkan seperti Luas kebun jumlah pohon, tahun tanam, serta letak posisi kebun yang tampil di dalam map.
 
-###2. Bagian Pertanahan
+### 2. Bagian Pertanahan
 Bagian pertanahan tidak berinteraksi dengan sistem. Mereka hanya perlu mengerjakan tugas pemetaan melalui aplikasi QGIS sehingga data yang dia kerjakan akan langsung terhubung ke database untuk di update.
 
 ## Screenshoot dari beberapa UI
